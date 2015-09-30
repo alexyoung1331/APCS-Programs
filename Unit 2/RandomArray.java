@@ -1,0 +1,1 @@
+public class RandomArray {static int choice (int[] arr){return (arr[(int) (Math.random() * (arr.length))]);}public static void main(String[] args) {int[] array = new int[10];for (int i = 0; i < 10; i++){array[i] = i + 1;System.out.print(array[i] + " ");}for (int i = 0; i < 3; i++){System.out.println (choice(array));}}}
